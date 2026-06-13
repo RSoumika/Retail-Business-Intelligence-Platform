@@ -1,0 +1,112 @@
+RETAIL BUSINESS INTELLIGENCE PLATFORM
+
+EXECUTIVE SUMMARY
+
+The Retail Business Intelligence Platform project analyzes 9,994 retail transactions between 2014 and 2017. The objective is to identify revenue drivers, profitability trends, regional performance, customer behavior, and product-level opportunities. Analysis was conducted using MySQL, with findings intended to support data-driven business decision-making.
+
+1. Overall Business Performance
+- Total Revenue: 2,272,450.07
+- Total Profit: 282,858.46
+- Total Orders: 4,931
+- Overall Profit Margin: 12.45%
+
+2. Regional Analysis
+- West Region generated the highest revenue (713,471.45) and highest profit (106,021.47).
+- East Region was the second-best performing region.
+- South Region generated the lowest revenue (388,983.59).
+- Central Region generated lower profit than South despite having higher revenue, indicating possible discounting or cost-related issues.
+
+
+3. Category Analysis
+- Technology is the best-performing category.
+- Technology generated the highest revenue (835,900.14) and the highest profit (145,387.81).
+- Office Supplies generated lower revenue than Furniture but significantly higher profit.
+- Furniture generated strong revenue (733,047.06) but very low profit (16,980.72).
+- Furniture appears to be the least profitable category and requires further investigation.
+
+4. Customer Analysis
+- Sean Miller generated the highest sales revenue (25,043.07) but resulted in a loss of 1,980.75.
+- Tamara Chand is one of the most valuable customers, generating both high revenue and high profit.
+- Several customers contribute significantly to overall revenue, indicating the importance of customer retention strategies.
+- High-revenue customers should be evaluated not only on sales but also on profitability.
+
+5. Product Analysis
+- Canon imageCLASS 2200 Advanced Copier is the highest-performing product with revenue of 61,599.83 and profit of 25,199.94.
+- Several high-revenue products generate losses, including:
+  - Cisco TelePresence System EX90 Videoconferencing
+  - GBC DocuBind P400 Electric Binding System
+  - High Speed Automatic Electric Letter Opener
+- Product performance should be evaluated using both revenue and profitability metrics.
+- Loss-making products require investigation into pricing, discounts, and operational costs.
+- Canon imageCLASS 2200 Advanced Copier is not only the highest revenue-generating product but also the most profitable product, generating 25,199.94 in profit.
+
+6. Yearly Sales Analysis
+
+- The business shows strong overall growth from 2014 to 2017.
+- Revenue increased from 481,763.83 in 2014 to 724,994.51 in 2017.
+- Profit increased from 49,044.48 in 2014 to 92,775.45 in 2017.
+- 2017 was the best-performing year in both revenue and profit.
+- Revenue slightly declined in 2015 compared to 2014, but profit increased significantly, indicating improved profitability.
+- The company achieved sustained growth between 2014 and 2017, with revenue increasing by over 50% and profit nearly doubling during the period.
+
+
+7. Monthly Sales Analysis
+
+- November was the highest-performing month, generating revenue of 348,834.58.
+- December was the second-highest performing month with revenue of 321,161.04.
+- September also demonstrated strong sales performance, generating 303,536.69 in revenue.
+- February was the weakest month, generating only 59,012.82 in revenue.
+- January also recorded relatively low sales compared to other months.
+- Sales activity increases significantly during the final quarter of the year (October–December).
+- The business exhibits clear seasonal patterns, with revenue peaking during year-end months.
+- Marketing campaigns, inventory planning, and promotional activities should be prioritized during the fourth quarter to maximize revenue opportunities.
+
+8. State-wise Analysis
+
+- California is the highest-performing state, generating revenue of 450,567.63 and profit of 74,669.41.
+- New York is the second most profitable state with revenue of 309,453.56 and profit of 73,507.20.
+- Texas generated high revenue (169,553.58) but incurred a loss of 25,534.94.
+- Pennsylvania generated revenue of 114,911.32 but resulted in a loss of 15,446.46.
+- Florida, Illinois, and Ohio also reported negative profitability despite substantial sales.
+- High revenue does not always translate into high profitability.
+- States with negative profits should be investigated for excessive discounts, operational inefficiencies, or unfavorable product mixes.
+
+9. Discount Impact Analysis
+
+- Discount levels have a significant impact on profitability.
+- Transactions with no discount generated an average profit of 68.11.
+- A 10% discount still maintained healthy profitability with an average profit of 96.06.
+- Profitability declines substantially as discount levels increase.
+- Discounts of 30% or higher consistently resulted in negative average profits.
+- The highest losses occurred at the 50% discount level, where average profit fell to -310.70 per transaction.
+- The analysis suggests that aggressive discounting is a major contributor to profit erosion.
+- The company should review its discount strategy and establish thresholds to prevent loss-making sales.
+
+10. Recommendations
+- Investigate Central Region profitability.
+- Analyze successful products in West Region and replicate strategies in other regions.
+- Focus on increasing sales in South Region while maintaining profitability.
+
+11. Data Quality Assessment
+
+- The dataset contains 9,994 records and 21 attributes.
+- No missing values were identified across any column.
+- No duplicate records were found.
+- Data types were validated using Pandas.
+- Numerical fields such as Sales, Quantity, Discount, and Profit were correctly stored as numeric data types.
+- Date fields (Order Date and Ship Date) were identified as text and subsequently converted to datetime format for time-series analysis.
+- The dataset demonstrated high data quality and required minimal preprocessing.
+
+12. TOOLS USED
+
+- MySQL Workbench
+- SQL
+- Python
+- Pandas
+- Matplotlib
+- Power BI Desktop
+- CSV Dataset (Sample Superstore)
+- Data Cleaning and Transformation
+- Business Intelligence and Data Visualization
+
+
